@@ -1,5 +1,5 @@
 {
-  "name": "storybook",
+  "name": "component-factory",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
