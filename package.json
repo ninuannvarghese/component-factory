@@ -27,7 +27,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "babelbuild": "babel src -d build",
+    "babelprepare": "yarn run build",
+    "distribute": "rm -rf dist && mkdir dist && babel src/components -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -58,6 +61,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/preset-react": "^7.13.13",
     "@storybook/addon-actions": "^6.2.9",
     "@storybook/addon-essentials": "^6.2.9",
     "@storybook/addon-links": "^6.2.9",
@@ -65,5 +70,10 @@
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.2.9",
     "storybook-addon-material-ui": "*"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
   }
 }
