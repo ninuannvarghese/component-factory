@@ -1,9 +1,9 @@
 import React from "react";
 
-import TVOMuliCarousel from "../components/TVOMuliCarousel";
+import TVOMuliCarousel from "../../components/Carousel/TVOMuliCarousel";
 
 export default {
-  title: "TVO/MultiCarousel",
+  title: "TVO/Carousel/MultiCarousel",
   component: TVOMuliCarousel,
 };
 

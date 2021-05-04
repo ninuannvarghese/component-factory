@@ -1,9 +1,9 @@
 import React from "react";
 
-import TVOCarousel from "../components/TVOCarousel";
+import TVOCarousel from "../../components/Carousel/TVOCarousel";
 
 export default {
-  title: "TVO/Carousel",
+  title: "TVO/Carousel/Simple",
   component: TVOCarousel,
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 import { action } from "@storybook/addon-actions";
 
-import TVOButton from "../components/TVOButton";
+import TVOButton from "../../components/Button/TVOButton";
 
 export default {
   title: "TVO/Styled Button",
