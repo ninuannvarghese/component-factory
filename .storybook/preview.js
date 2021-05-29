@@ -13,11 +13,5 @@ export const parameters = {
     },
   },
 };
-/*export const decorators = [
-  (Story) => (
-    <ThemeProvider theme={LightTheme}>
-      <Story />
-    </ThemeProvider>
-  ),
-];*/
+
 export const decorators = [muiTheme([LightTheme, DarkTheme])];
