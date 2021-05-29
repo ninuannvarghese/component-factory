@@ -1,8 +1,8 @@
 import React from "react";
 import { muiTheme } from "storybook-addon-material-ui";
 import ThemeProvider from "./theme-provider";
-import LightTheme from "../src/themes/TVO-light-theme";
-import DarkTheme from "../src/themes/TVO-dark-theme";
+import LightTheme from "../src/themes/light-theme";
+import DarkTheme from "../src/themes/dark-theme";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
